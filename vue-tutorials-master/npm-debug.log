@@ -1,0 +1,30 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'D:\\soft\\Node\\node.exe',
+1 verbose cli   'C:\\Users\\admin\\AppData\\Roaming\\npm\\node_modules\\cnpm\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   '--userconfig=C:\\Users\\admin\\.cnpmrc',
+1 verbose cli   '--disturl=https://npm.taobao.org/mirrors/node',
+1 verbose cli   '--registry=https://registry.npm.taobao.org',
+1 verbose cli   'run',
+1 verbose cli   'dev' ]
+2 info using npm@3.10.10
+3 info using node@v6.2.0
+4 verbose config Skipping project config: C:\Users\admin/.npmrc. (matches userconfig)
+5 verbose stack Error: missing script: dev
+5 verbose stack     at run (C:\Users\admin\AppData\Roaming\npm\node_modules\cnpm\node_modules\npm\lib\run-script.js:151:19)
+5 verbose stack     at C:\Users\admin\AppData\Roaming\npm\node_modules\cnpm\node_modules\npm\lib\run-script.js:61:5
+5 verbose stack     at C:\Users\admin\AppData\Roaming\npm\node_modules\cnpm\node_modules\npm\node_modules\read-package-json\read-json.js:356:5
+5 verbose stack     at checkBinReferences_ (C:\Users\admin\AppData\Roaming\npm\node_modules\cnpm\node_modules\npm\node_modules\read-package-json\read-json.js:320:45)
+5 verbose stack     at final (C:\Users\admin\AppData\Roaming\npm\node_modules\cnpm\node_modules\npm\node_modules\read-package-json\read-json.js:354:3)
+5 verbose stack     at then (C:\Users\admin\AppData\Roaming\npm\node_modules\cnpm\node_modules\npm\node_modules\read-package-json\read-json.js:124:5)
+5 verbose stack     at ReadFileContext.<anonymous> (C:\Users\admin\AppData\Roaming\npm\node_modules\cnpm\node_modules\npm\node_modules\read-package-json\read-json.js:295:20)
+5 verbose stack     at ReadFileContext.callback (C:\Users\admin\AppData\Roaming\npm\node_modules\cnpm\node_modules\npm\node_modules\graceful-fs\graceful-fs.js:78:16)
+5 verbose stack     at FSReqWrap.readFileAfterOpen [as oncomplete] (fs.js:359:13)
+6 verbose cwd C:\Users\admin\Desktop\myStrorage\Vue\vue-tutorials-master
+7 error Windows_NT 10.0.14393
+8 error argv "D:\\soft\\Node\\node.exe" "C:\\Users\\admin\\AppData\\Roaming\\npm\\node_modules\\cnpm\\node_modules\\npm\\bin\\npm-cli.js" "--userconfig=C:\\Users\\admin\\.cnpmrc" "--disturl=https://npm.taobao.org/mirrors/node" "--registry=https://registry.npm.taobao.org" "run" "dev"
+9 error node v6.2.0
+10 error npm  v3.10.10
+11 error missing script: dev
+12 error If you need help, you may report this error at:
+12 error     <https://github.com/npm/npm/issues>
+13 verbose exit [ 1, true ]
